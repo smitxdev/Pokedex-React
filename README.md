@@ -41,3 +41,6 @@ npm install
 npm start
 ```
 4.Open your browser and navigate to http://localhost:3000 to view the app.
+
+# Checkout project here: 
+https://pokedex-smit.netlify.app/
