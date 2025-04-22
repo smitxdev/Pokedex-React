@@ -1,12 +1,43 @@
-# React + Vite
+# Pokémon Explorer Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Pokémon Explorer web app! This app allows users to explore detailed information about their favorite Pokémon using the PokeAPI. The app features dynamic routing, a clean UI with React Router DOM, and a responsive layout built with Bootstrap.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Homepage**: Displays a list of Pokémon with a search feature.
+- **Dynamic Pokémon Detail Page**: Displays detailed information about each Pokémon, including:
+  - Name, ID, and type(s)
+  - Pokémon's base stats (e.g., HP, Attack, Defense)
+  - Abilities, including hidden abilities
+  - Pokémon’s moveset
+  - Images and sprites of the Pokémon
+  - Evolution chain (future use)
+- **Tabs for Information**: Toggle between Base Stats, Abilities, and Moves.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**: JavaScript library for building user interfaces.
+- **React Router DOM**: For routing between the homepage and individual Pokémon detail pages.
+- **Axios**: For fetching data from the PokeAPI.
+- **React Bootstrap**: For responsive layout and UI components.
+- **Animate.css**: For adding smooth animations and transitions.
+- **PokeAPI**: The free API providing data about Pokémon.
+- **React's `lazy` function**: Used for code-splitting and loading components dynamically, improving performance by only loading components when needed.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/pokemon-explorer.git
+   cd pokemon-explorer
+
+2. Install the dependencies:
+
+```bash
+npm install
+```
+3. Start the development server:
+```bash
+npm start
+```
+4.Open your browser and navigate to http://localhost:3000 to view the app.
